@@ -56,3 +56,10 @@ sudo gunicorn -w (NUMBER_OF_WORKER) -b (BINDING_ADDRESS:PORT) -p gunicorn.pid (F
 # sudo gunicorn -w 4 -b 0.0.0.0:8000 -p gunicorn.pid server:app
 ```
 Make sure you have a lot of RAM to initialise multi-workers
+
+I deployed this API in my live server, you can do GET request from here
+```text
+www.huseinhouse.com:8020/sentiment?text=
+```
+
+Or check [this website](http://www.huseinhouse.com/sentiment/) for simple application layer
