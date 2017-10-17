@@ -42,7 +42,7 @@ if __name__ == '__main__':
     # 0.0.0.0 for public ip
     # define your port
     # thread = True if want multi-thread, depends on your OS
-	app.run(host = '0.0.0.0', threaded = True,  port = 999999)
+    app.run(host = '0.0.0.0', threaded = True,  port = 999999)
 ```
 
 Remember, Flask cannot support a lot concurrent thread at the same time, maybe you can check [Gunicorn](http://gunicorn.org/#quickstart)
@@ -63,5 +63,5 @@ www.huseinhouse.com:8020/sentiment?text=
 ```
 
 Or check [this website](http://www.huseinhouse.com/sentiment/) for simple application layer
-![alt text](screenshot/Capture1.PNG)
+
 ![alt text](screenshot/Capture3.PNG)
