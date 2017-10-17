@@ -63,3 +63,5 @@ www.huseinhouse.com:8020/sentiment?text=
 ```
 
 Or check [this website](http://www.huseinhouse.com/sentiment/) for simple application layer
+![alt text](screenshot/Capture1.PNG)
+![alt text](screenshot/Capture3.PNG)
